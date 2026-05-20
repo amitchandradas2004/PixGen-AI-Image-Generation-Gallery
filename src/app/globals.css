@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@heroui/styles";
-@plugin "daisyui";
+@import "daisyui/daisyui.css";
 
 :root {
   --accent: oklch(0.7 0.25 260);

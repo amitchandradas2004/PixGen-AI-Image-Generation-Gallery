@@ -1,16 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Poppins, Space_Grotesk } from "next/font/google";
 import { Providers } from "@/app/Providers";
 import Navbar from "./Components/Navbar/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const space = Space_Grotesk({
+  variable: "--font-space",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata = {
@@ -25,7 +21,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
       lang="en"
       data-theme="light"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased light`}
+      className={`${space.className} h-full antialiased light`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {" "}

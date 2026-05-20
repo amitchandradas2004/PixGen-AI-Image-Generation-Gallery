@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { ThemeToggle } from "../ThemeToggle";
+import Logo from "@/assets/Logo.png";
+import Image from "next/image";
 const Navbar = () => {
   const NavLinks = (
     <>
@@ -23,13 +25,13 @@ const Navbar = () => {
   );
   return (
     <div
-      className="shadow-sm bg-base-200 
-        dark:bg-black
-        text-black
-        dark:text-white
-        border-b
-        border-gray-200
-        dark:border-gray-800"
+      className="shadow-sm bg-base-200
+      dark:bg-black
+      text-black
+      dark:text-white
+      border-b
+      border-gray-200
+      dark:border-gray-800 font-space fixed top-0 z-10 w-full"
     >
       <div className="flex justify-between items-center container mx-auto w-full">
         <div className="navbar-start ">
@@ -58,7 +60,11 @@ const Navbar = () => {
               {NavLinks}
             </ul>
           </div>
-          <Link href={"/"} className="text-xl font-bold">
+          <Link
+            href={"/"}
+            className="font-bold flex items-center text-2xl select-none"
+          >
+            <Image src={Logo} alt="PixGen" height={50} width={50} />
             PixGen
           </Link>
         </div>
