@@ -4,13 +4,13 @@ import Link from "next/link";
 import { IoIosHome } from "react-icons/io";
 const notFoundPage = () => {
   return (
-    <div className="pt-25 md:pt-15 bg-[#F1F1F1] h-screen text-center">
+    <div className="pt-25 md:pt-15 bg-[#F1F1F1] dark:bg-black h-screen text-center">
       <Image
         src={NotFoundImage}
         alt="This page is not found"
         height={250}
         width={250}
-        className="mx-auto select-none"
+        className="mx-auto select-none "
       />
       <div className="flex flex-col items-center justify-center space-y-3 ">
         <h2 className="text-indigo-600 text-5xl font-extrabold">

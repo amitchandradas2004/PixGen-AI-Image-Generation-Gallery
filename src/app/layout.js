@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {" "}
         <Providers>
-          <Navbar />
+          <Navbar></Navbar>
           {children}
-          <Footer/>
+          <Footer></Footer>
         </Providers>
       </body>
     </html>
