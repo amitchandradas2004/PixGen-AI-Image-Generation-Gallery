@@ -2,6 +2,7 @@ import "./globals.css";
 import { Poppins, Space_Grotesk } from "next/font/google";
 import { Providers } from "@/app/Providers";
 import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 const space = Space_Grotesk({
   variable: "--font-space",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar />
           {children}
+          <Footer/>
         </Providers>
       </body>
     </html>

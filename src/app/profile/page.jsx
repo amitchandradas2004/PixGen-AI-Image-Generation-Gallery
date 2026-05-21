@@ -4,7 +4,7 @@ export const metadata = {
     "A modern AI-powered gallery platform where users can explore, view, and interact with AI-generated images.",
 };
 const ProfilePage = () => {
-  return <div className="mt-20">Profile Page</div>;
+  return <div className="pt-20">Profile Page</div>;
 };
 
 export default ProfilePage;

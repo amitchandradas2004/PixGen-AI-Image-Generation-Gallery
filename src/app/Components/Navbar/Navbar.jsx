@@ -24,15 +24,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div
-      className="shadow-sm bg-base-200
-      dark:bg-black
-      text-black
-      dark:text-white
-      border-b
-      border-gray-200
-      dark:border-gray-800 font-space fixed top-0 z-10 w-full"
-    >
+    <div className="shadow-sm bg-base-200 dark:bg-black text-black dark:text-white border-b border-gray-200 dark:border-gray-800 font-space fixed top-0 z-10 w-full">
       <div className="flex justify-between items-center container mx-auto w-full">
         <div className="navbar-start ">
           <div className="dropdown">
@@ -55,7 +47,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-40 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-40 p-2 shadow text-xs"
             >
               {NavLinks}
             </ul>
@@ -69,7 +61,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden md:flex">
-          <ul className="menu menu-horizontal px-1 ">{NavLinks}</ul>
+          <ul className="menu menu-horizontal px-1 text-xs">{NavLinks}</ul>
         </div>
         <div className="navbar-end">
           <span>
