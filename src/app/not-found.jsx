@@ -2,18 +2,19 @@ import NotFoundImage from "@/assets/Not-found.png";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosHome } from "react-icons/io";
+
 const notFoundPage = () => {
   return (
-    <div className="pt-25 md:pt-15 bg-[#F1F1F1] dark:bg-black h-screen text-center">
+    <div className="bg-[#f1f1f1e5] dark:bg-black h-screen text-center flex flex-col justify-center items-center py-10">
       <Image
         src={NotFoundImage}
         alt="This page is not found"
-        height={250}
-        width={250}
-        className="mx-auto select-none "
+        height={300}
+        width={300}
+        className="mx-auto select-none"
       />
-      <div className="flex flex-col items-center justify-center space-y-3 ">
-        <h2 className="text-indigo-600 text-5xl font-extrabold">
+      <div className="flex flex-col items-center justify-center space-y-3">
+        <h2 className="text-indigo-600 text-4xl md:text-5xl lg:text-6xl font-extrabold">
           No Results Found
         </h2>
         <p className="text-xl font-medium text-muted">
