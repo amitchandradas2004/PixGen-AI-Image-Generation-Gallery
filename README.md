@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 PixGen
 
-## Getting Started
+PixGen is a modern AI image generation web application built with Next.js.  
+Users can generate stunning AI-powered artworks from simple text prompts using a futuristic and responsive UI.
 
-First, run the development server:
+---
+
+## 🚀 Live Website
+
+🔗 https://pixgen-ai-image-generation-gallery.vercel.app/
+
+---
+## ✨ Features
+
+### 🎨 Core Features
+
+- AI Image Generation from text prompts
+- High-quality AI-generated outputs
+- Multiple art styles support
+
+### 🔐 Auth & Security
+
+- Login & Register system
+- Protected routes (Profile page and dynamic photo detailes page)
+- Guest restriction for AI Gennerated Photo details page
+- Session-based access control
+
+### 🖼️ UI/UX Features
+
+- Modern glassmorphism design
+- Responsive layout (mobile + desktop)
+- Dark / Light mode support
+- Smooth transitions & hover effects
+
+### 🖼️ Gallery System
+
+- Dynamic AI image gallery
+- Private image feed for logged-in users
+- Searching-based filtering
+
+---
+
+## 🔐 Authentication System
+
+PixGen includes a secure authentication system:
+
+- 🧑 User Registration (Sign Up)
+- 🔑 User Login (Sign In)
+- 🚪 Protected Routes (Private Access)
+- 🔒 Only authenticated users can access AI generation features
+- 👤 Session-based user control
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- Next.js
+- React.js
+- Tailwind CSS
+- DaisyUI
+- HeroUI
+
+### Database
+
+- MongoDB
+
+### Authentication
+
+- BetterAuth
+
+---
+
+## 📦 Packages Used
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install next
+npm install tailwindcss
+npm install daisyui
+npm install heroui
+npm install react-icons
+npm install gravityicons
+npm install mongodb
+npm install betterauth
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Project Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Home Page
 
-## Learn More
+- Futuristic Hero Section
+- Animated Navbar
+- AI Features Section
+- Community Showcase
+- Pricing Plans
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔥 Real AI API Integration
+- 🖌️ Advanced Prompt Enhancer
+- 📹 AI Video Generation
+- 👥 User Dashboard
+- 💾 Save Generated Images
+- 🌐 Social Sharing
+- 💳 Subscription System
+- 📊 AI Usage Analytics
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed by `Amit Chandra Das`
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!

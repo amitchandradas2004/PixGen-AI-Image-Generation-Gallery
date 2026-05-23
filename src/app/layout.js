@@ -3,7 +3,7 @@ import { Poppins, Space_Grotesk } from "next/font/google";
 import { Providers } from "@/app/Providers";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-
+import { Toaster } from "react-hot-toast";
 const space = Space_Grotesk({
   variable: "--font-space",
   subsets: ["latin"],
@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Navbar></Navbar>
           {children}
+           <Toaster position="top-center" />
           <Footer></Footer>
         </Providers>
       </body>

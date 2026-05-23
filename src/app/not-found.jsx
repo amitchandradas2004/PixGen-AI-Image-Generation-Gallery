@@ -17,7 +17,7 @@ const notFoundPage = () => {
         <h2 className="text-indigo-600 text-3xl md:text-5xl lg:text-6xl font-extrabold">
           No Results Found
         </h2>
-        <p className="text-xs md:text-xl font-medium text-muted">
+        <p className="text-xs md:text-xl font-medium text-muted px-2">
           We could not find what you searched for. Try searching again.
         </p>
         <Link href={"/"}>
