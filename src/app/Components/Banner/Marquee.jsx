@@ -134,7 +134,7 @@ const MarqueeLayout = () => {
         {photos.map((photo) => (
           <span
             key={photo.id}
-            className="pl-5 flex items-center gap-2 font-medium "
+            className="pl-5 flex items-center gap-2 font-medium text-xs sm:text-[15px]"
           >
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>

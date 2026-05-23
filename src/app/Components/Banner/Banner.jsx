@@ -21,14 +21,14 @@ const BannerPage = () => {
           <h3 className="text-2xl md:text-4xl font-bold mt-5">
             Turn Words Into Art via PixGen
           </h3>
-          <p className="{nunito.className} opacity-80 py-3">
+          <p className="opacity-80 py-3 text-xs sm:text-[15px]">
             PixGen is a modern AI image generator that transforms text prompts
             into high-quality digital artwork, illustrations, and creative
             visuals instantly.
           </p>
           <Link href={"/allphotos"}>
             <button className="btn btn-primary dark:bg-black rounded-full h-10 w-45 transition-all duration-500 ease-in-out cursor-pointer hover:-translate-y-0.5">
-              Browse Photos <FaUpRightFromSquare />
+             Explore AI Art <FaUpRightFromSquare />
             </button>
           </Link>
         </div>

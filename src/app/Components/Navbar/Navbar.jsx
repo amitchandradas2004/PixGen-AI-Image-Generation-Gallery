@@ -24,9 +24,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="shadow-sm bg-base-200 dark:bg-black text-black dark:text-white border-b border-gray-200 dark:border-gray-800 font-space fixed top-0 z-10 w-full">
+    <div className="shadow-md dark:bg-black/5 text-black dark:text-white border-b border-gray-200 dark:border-gray-800 font-space fixed top-0 z-10 w-full backdrop-blur-md bg-black/5">
       <div className="flex justify-between items-center container mx-auto w-full">
-        <div className="navbar-start ">
+        <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
               <svg
@@ -46,8 +46,8 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-40 p-2 shadow text-xs"
+              tabIndex="0"
+              className="menu menu-sm dropdown-content bg-white/90 dark:bg-black/80 backdrop-blur-xl border border-black/10 dark:border-white/10 rounded-2xl z-5 mt-3 w-40 p-2 shadow-lg dark:shadow-[0_0_20px_rgba(0,0,0,0.3)] text-xs"
             >
               {NavLinks}
             </ul>
