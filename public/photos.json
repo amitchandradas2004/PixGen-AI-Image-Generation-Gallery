@@ -10,6 +10,7 @@
     "likes": 1240,
     "downloads": 340,
     "createdAt": "2026-05-01",
+    "featured": true,
     "tags": ["cyberpunk", "future", "city", "neon"]
   },
   {
@@ -36,6 +37,7 @@
     "likes": 3400,
     "downloads": 1100,
     "createdAt": "2026-05-03",
+    "featured": true,
     "tags": ["astronaut", "space", "galaxy"]
   },
   {
@@ -88,6 +90,7 @@
     "likes": 1500,
     "downloads": 470,
     "createdAt": "2026-05-07",
+    "featured": true,
     "tags": ["underwater", "ocean", "fantasy"]
   },
   {
@@ -127,6 +130,7 @@
     "likes": 2400,
     "downloads": 790,
     "createdAt": "2026-05-10",
+    "featured": true,
     "tags": ["tokyo", "rain", "neon"]
   },
   {
@@ -153,6 +157,7 @@
     "likes": 1400,
     "downloads": 420,
     "createdAt": "2026-05-12",
+    "featured": true,
     "tags": ["temple", "jungle", "ancient"]
   },
   {

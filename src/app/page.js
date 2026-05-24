@@ -1,5 +1,6 @@
 import BannerPage from "./Components/Banner/Banner";
 import MarqueeLayout from "./Components/Banner/Marquee";
+import Featured from "./Components/Featured/Featured";
 import Pricing from "./Components/Pricing/Pricing";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <div>
       <BannerPage />
       <MarqueeLayout />
-      {/* Top Generations will be here */}
+      <Featured />
       <Pricing />
     </div>
   );
