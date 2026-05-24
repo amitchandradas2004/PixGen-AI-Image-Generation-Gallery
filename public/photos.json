@@ -10,7 +10,6 @@
     "likes": 1240,
     "downloads": 340,
     "createdAt": "2026-05-01",
-    "featured": true,
     "tags": ["cyberpunk", "future", "city", "neon"]
   },
   {
@@ -184,6 +183,7 @@
     "likes": 2130,
     "downloads": 650,
     "createdAt": "2026-05-14",
+    "featured": true,
     "tags": ["car", "future", "technology"]
   },
   {
