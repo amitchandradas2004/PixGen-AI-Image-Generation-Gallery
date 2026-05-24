@@ -9,9 +9,11 @@ const Featured = async () => {
 
   const featuredPhotos = photos.filter((photo) => photo.featured).slice(0, 5);
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto py-10 px-5 md:px-0">
       <div className="flex flex-col md:flex-row justify-between items-center">
-        <h2 className="text-4xl font-bold">Featured AI Creations</h2>
+        <h2 className="text-2xl md:text-4xl font-bold text-center md:text-start mb-3 md:mb-0">
+          Featured AI Creations
+        </h2>
         <Link href={"/allphotos"}>
           <button className="btn btn-dash btn-primary rounded-full w-30 h-8">
             See all

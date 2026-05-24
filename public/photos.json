@@ -1,16 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Cyberpunk City",
-    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    "prompt": "A futuristic cyberpunk city with neon lights and flying cars",
-    "category": "Cyberpunk",
-    "model": "DALL·E 3",
+    "title": "Futuristic Car",
+    "imageUrl": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
+    "prompt": "A sleek futuristic electric car in neon city",
+    "category": "Technology",
+    "model": "Midjourney v6",
     "resolution": "1920x1080",
-    "likes": 1240,
-    "downloads": 340,
-    "createdAt": "2026-05-01",
-    "tags": ["cyberpunk", "future", "city", "neon"]
+    "likes": 2130,
+    "downloads": 650,
+    "createdAt": "2026-05-14",
+    "featured": true,
+    "tags": ["car", "future", "technology"]
   },
   {
     "id": 2,
@@ -174,17 +175,16 @@
   },
   {
     "id": 14,
-    "title": "Futuristic Car",
-    "imageUrl": "https://images.unsplash.com/photo-1502877338535-766e1452684a",
-    "prompt": "A sleek futuristic electric car in neon city",
-    "category": "Technology",
-    "model": "Midjourney v6",
+    "title": "Cyberpunk City",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "prompt": "A futuristic cyberpunk city with neon lights and flying cars",
+    "category": "Cyberpunk",
+    "model": "DALL·E 3",
     "resolution": "1920x1080",
-    "likes": 2130,
-    "downloads": 650,
-    "createdAt": "2026-05-14",
-    "featured": true,
-    "tags": ["car", "future", "technology"]
+    "likes": 1240,
+    "downloads": 340,
+    "createdAt": "2026-05-01",
+    "tags": ["cyberpunk", "future", "city", "neon"]
   },
   {
     "id": 15,

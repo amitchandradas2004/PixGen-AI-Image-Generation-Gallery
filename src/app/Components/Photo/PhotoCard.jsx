@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const PhotoCard = ({ photo }) => {
   return (
@@ -72,6 +73,15 @@ const PhotoCard = ({ photo }) => {
           <span>❤️ {photo.likes}</span>
           <span>⚡ {photo.model}</span>
         </div>
+        <Link href={`/allphotos/${photo.id}`}>
+          <button
+            className="
+            btn btn-dash rounded-full text-sx h-8 mt-3
+            "
+          >
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );

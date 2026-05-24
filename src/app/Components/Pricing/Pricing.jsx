@@ -2,11 +2,11 @@
 import toast from "react-hot-toast";
 const Pricing = () => {
   return (
-    <section className="w-full py-10 px-2 sm:px-0 text-black">
+    <section className="w-full py-10 px-5 sm:px-0 text-black">
       {/* Heading */}
       <div className="text-center mb-10 dark:text-white">
-        <h2 className="text-4xl font-bold">Choose Your Plan</h2>
-        <p className="mt-2">
+        <h2 className="text-2xl md:text-4xl font-bold">Choose Your Plan</h2>
+        <p className="text-xs sm:text-[16px] mt-2">
           Simple pricing for unlimited creativity with PixGen
         </p>
       </div>
